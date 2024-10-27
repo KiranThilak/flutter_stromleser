@@ -1,0 +1,28 @@
+name: flutter_stromleser
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_stromleser.webp
+    - assets/equipment.jpg
+    - assets/equipment.png
+    - assets/power_button.png
+    - assets/electricity_on.json
+    - assets/electricity_off.png
